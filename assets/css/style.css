@@ -17,6 +17,16 @@
  .navegador{
   display: flex;
   flex-direction: row-reverse;
+  background-color: black;
+ }
+ .botonNav{
+  background-color: rgb(224, 167, 10);
+ }
+ .nav-link{
+  color: rgb(255, 255, 255);
+ }
+ .navbar-nav .nav-link.active{
+  color: rgb(91, 94, 93);
  }
  footer{
   background-color: black;

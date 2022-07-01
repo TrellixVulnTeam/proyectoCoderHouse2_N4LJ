@@ -1,0 +1,16 @@
+.navegador {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  .botonNav {
+    background-color: $colorMain;
+  }
+  .navbar-nav {
+    .nav-link {
+      color: rgb(255, 255, 255);
+    }
+    .nav-link.active {
+      color: rgb(91, 94, 93);
+    }
+  }
+}

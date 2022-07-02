@@ -54,3 +54,6 @@ footer {
 
 .galeria div img {
   padding: 10px; }
+
+body {
+  overflow-x: hidden; }

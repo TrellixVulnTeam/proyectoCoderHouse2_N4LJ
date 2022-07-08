@@ -1,0 +1,8 @@
+.sobreCarpinteria{
+    p{
+        font-family:Arial, Helvetica, sans-serif
+    }
+}
+.tareasCarpintero{
+     @extend .sobreCarpinteria
+}

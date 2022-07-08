@@ -2,6 +2,7 @@
   padding: 0px;
   .navegador {
     @include PropiedadesFlex(flex, row-reverse, none);
+    padding: 10px;
     background-color: black;
     .botonNav {
       background-color: $colorMain;

@@ -2,17 +2,19 @@
   margin: 0%;
   padding: 0%; }
 
-.navegador {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: none;
-  background-color: black; }
-  .navegador .botonNav {
-    background-color: #e0a70a; }
-  .navegador .navbar-nav .nav-link {
-    color: white; }
-  .navegador .navbar-nav .nav-link.active {
-    color: #5b5e5d; }
+.navbar {
+  padding: 0px; }
+  .navbar .navegador {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: none;
+    background-color: black; }
+    .navbar .navegador .botonNav {
+      background-color: #e0a70a; }
+    .navbar .navegador .navbar-nav .nav-link {
+      color: white; }
+    .navbar .navegador .navbar-nav .nav-link.active {
+      color: #5b5e5d; }
 
 footer {
   background-color: black;

@@ -1,15 +1,18 @@
-.navegador {
-  @include PropiedadesFlex(flex,row-reverse,none);
-  background-color: black;
-  .botonNav {
-    background-color: $colorMain;
-  }
-  .navbar-nav {
-    .nav-link {
-      color: rgb(255, 255, 255);
+.navbar {
+  padding: 0px;
+  .navegador {
+    @include PropiedadesFlex(flex, row-reverse, none);
+    background-color: black;
+    .botonNav {
+      background-color: $colorMain;
     }
-    .nav-link.active {
-      color: rgb(91, 94, 93);
+    .navbar-nav {
+      .nav-link {
+        color: rgb(255, 255, 255);
+      }
+      .nav-link.active {
+        color: rgb(91, 94, 93);
+      }
     }
   }
 }

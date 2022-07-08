@@ -5,6 +5,7 @@
 .navegador {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: none;
   background-color: black; }
   .navegador .botonNav {
     background-color: #e0a70a; }
@@ -24,6 +25,7 @@ footer {
   margin-top: 10px; }
   footer p {
     display: flex;
+    flex-direction: none;
     justify-content: center; }
 
 @media (min-width: 768px) {
@@ -49,10 +51,17 @@ footer {
 
 .btn {
   background-color: black;
-  color: aliceblue;
+  color: white;
   border: none; }
 
 .galeria {
   overflow-x: hidden; }
   .galeria div img {
     padding: 10px; }
+
+.infoMain {
+  background-image: url(../images/virutafondo.png);
+  background-repeat: no-repeat;
+  background-position: 50% 110%;
+  padding-bottom: 75px;
+  background-size: 300px; }

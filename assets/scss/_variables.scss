@@ -1,1 +1,15 @@
 $colorMain: rgb(224, 167, 10);
+@mixin PropiedadesFlex ($display,$direccion,$justify) {
+    display: $display;
+    flex-direction: $direccion;
+    justify-content: $justify;
+  };
+$estiloCard: (
+  color: rgb(0, 0, 0),
+  estiloBorde: 5px solid,
+);
+$estiloBoton: (
+  backroundColor: rgb(0, 0, 0),
+  color: rgb(255, 255, 255),
+  border: none,
+)

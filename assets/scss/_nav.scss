@@ -1,6 +1,5 @@
 .navegador {
-  display: flex;
-  flex-direction: row-reverse;
+  @include PropiedadesFlex(flex,row-reverse,none);
   background-color: black;
   .botonNav {
     background-color: $colorMain;

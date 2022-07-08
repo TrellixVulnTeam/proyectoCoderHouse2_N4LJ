@@ -1,5 +1,5 @@
 .btn{
-    background-color: black;
-    color: aliceblue;
-    border: none;
-   }
+    background-color: map-get($estiloBoton,backroundColor);
+    color: map-get($estiloBoton,color);
+    border: map-get($estiloBoton,border);
+}

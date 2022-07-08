@@ -1,18 +1,18 @@
-.card{
-    border-color: black;
-    border: 5px solid;
-   }
-   @media(min-width: 992px){
-    .card{
-      width: 65%;
-    }
-    .tarjeta{
-      display: flex;
-      justify-content: center;
-    }
-   }
-   @media(min-width: 1200px){
-    .card{
-      width: 50%;
-    }
-   }
+.card {
+  border-color: map-get($estiloCard, color);
+  border: map-get($estiloCard, estiloBorde);
+}
+@media (min-width: 992px) {
+  .card {
+    width: 65%;
+  }
+  .tarjeta {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    width: 50%;
+  }
+}

@@ -68,3 +68,9 @@ footer {
 
 .sobreCarpinteria p, .tareasCarpintero p {
   font-family: Arial, Helvetica, sans-serif; }
+
+.container-fluid {
+  padding: 0px; }
+
+.logoNaval {
+  width: 200px; }

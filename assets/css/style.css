@@ -25,7 +25,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding-top: 10px;
-  margin-top: 10px; }
+  margin-top: auto; }
   footer p {
     display: flex;
     flex-direction: none;
@@ -69,8 +69,21 @@ footer {
   padding-bottom: 75px;
   background-size: 300px; }
 
-.sobreCarpinteria p, .tareasCarpintero p {
-  font-family: Arial, Helvetica, sans-serif; }
+.sobreCarpinteria, .tareasCarpintero {
+  width: 900px; }
+  .sobreCarpinteria p, .tareasCarpintero p {
+    font-family: Arial, Helvetica, sans-serif; }
+
+.tareasCarpintero {
+  width: 900px; }
+
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
 
 .container-fluid {
   padding: 0px; }
@@ -81,5 +94,13 @@ main .row {
 .logoNaval {
   width: 200px; }
 
-main {
-  overflow: hidden; }
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+footer {
+  margin-top: auto; }

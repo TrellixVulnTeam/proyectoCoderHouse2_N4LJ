@@ -94,13 +94,19 @@ main .row {
 .logoNaval {
   width: 200px; }
 
-html {
-  height: 100%; }
+form h2 {
+  color: black; }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%; }
+form .form {
+  background-color: #e0a70a;
+  border: 5px solid black; }
 
-footer {
-  margin-top: auto; }
+@media (min-width: 768px) {
+  form {
+    display: flex;
+    flex-direction: row; } }
+
+.contactoImg {
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/herramientascontact.png); }

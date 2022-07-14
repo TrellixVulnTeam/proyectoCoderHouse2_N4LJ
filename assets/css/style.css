@@ -69,6 +69,9 @@ footer {
   padding-bottom: 75px;
   background-size: 300px; }
 
+.row {
+  overflow-x: hidden; }
+
 .sobreCarpinteria, .tareasCarpintero {
   width: 900px; }
   .sobreCarpinteria p, .tareasCarpintero p {
@@ -78,6 +81,7 @@ footer {
   width: 900px; }
 
 html {
+  overflow-x: hidden;
   height: 100%; }
 
 body {

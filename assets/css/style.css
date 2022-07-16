@@ -13,9 +13,11 @@
     .navbar .navegador .botonNav {
       background-color: #e0a70a; }
     .navbar .navegador .navbar-nav .nav-link {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 20px;
       color: white; }
     .navbar .navegador .navbar-nav .nav-link.active {
-      color: #5b5e5d; }
+      color: #e0a70a; }
 
 footer {
   background-color: black;
@@ -58,6 +60,7 @@ footer {
   border: none; }
 
 .galeria {
+  margin: 25px;
   overflow-x: hidden; }
   .galeria div img {
     padding: 10px; }
@@ -68,9 +71,6 @@ footer {
   background-position: 50% 110%;
   padding-bottom: 75px;
   background-size: 300px; }
-
-.row {
-  overflow-x: hidden; }
 
 .sobreCarpinteria, .tareasCarpintero {
   width: 900px; }

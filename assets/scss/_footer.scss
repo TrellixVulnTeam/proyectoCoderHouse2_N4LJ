@@ -8,6 +8,7 @@ footer {
   margin-top: auto;
   p {
     @include PropiedadesFlex(flex,none,center)
+    
   }
 }
 @media(min-width:768px){

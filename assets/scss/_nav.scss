@@ -3,16 +3,19 @@
   .navegador {
     @include PropiedadesFlex(flex, row-reverse, none);
     padding: 10px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     .botonNav {
       background-color: $colorMain;
     }
     .navbar-nav {
       .nav-link {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
         color: rgb(255, 255, 255);
+        
       }
       .nav-link.active {
-        color: rgb(91, 94, 93);
+        color: $colorMain;
       }
     }
   }
